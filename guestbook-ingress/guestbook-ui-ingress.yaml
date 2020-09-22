@@ -9,7 +9,7 @@ spec:
   - host: guestbook-ui.poc.parvaeres.io
     http:
       paths:
-      - path: /
+      - path: /*
         backend:
           serviceName: guestbook-ui
           servicePort: 80
